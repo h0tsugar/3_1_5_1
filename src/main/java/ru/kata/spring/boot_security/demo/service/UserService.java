@@ -11,5 +11,5 @@ public interface UserService {
     List<User> getAllUsers();
     User findById(Long id);
     void update(Long id, User updatedUser);
-
+    void hello();
 }
